@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
 
 /* Utility Components (those components are used everywhere, that's why they're called utility components*/
 
 :root {
-    font-size: 62.5%; /*that's 10px, normal font size is 16px and 62.5% of 16px is 10px*/
+    font-size: 62.5%;
+    /*that's 10px, normal font size is 16px and 62.5% of 16px is 10px*/
 }
 
 body {
@@ -17,4 +18,56 @@ body {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* paragraphs */
+
+p {
+    font-size: 1.5 rem;
+    margin: 0.5rem 0;
+    /*in the root-tag, we've changed the font-size root to 10px. Therefore 0.5rem is now 5px and not 8px, 
+    which it would've been if we hadn't changed the root font size. This is a relative unit. */
+
+}
+
+/* icons */
+
+i {
+    font-size: 5rem;
+}
+
+/* superscript elements */
+
+sup {
+    font-size: 0.8rem;
+}
+
+::selection {
+    color: black;
+    background: white;
+}
+
+/* main styling */ /* these stylings are specific to each element */
+
+/* section => container of them all */
+
+section#weather {
+    margin: 2rem auto 0;
+}
+
+/* main heading */
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 1rem;
+    font-weight: 300;
+}
+
+/* Weather Info -- Temp Container */
+
+div.weather__info__temp {
+    padding: 4rem;
+}
+
+/* weather info */
 

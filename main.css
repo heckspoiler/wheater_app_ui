@@ -71,3 +71,9 @@ div.weather__info__temp {
 
 /* weather info */
 
+div.weather__info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem 0;
+}

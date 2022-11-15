@@ -1,0 +1,10 @@
+/* weather info -- temp container */
+div.weather__info__temp {
+    padding: 1rem !important;
+}
+
+/* Weather Info */
+div.weather__info {
+    font-size: 0.7rem;
+    align-items: flex-end;
+}

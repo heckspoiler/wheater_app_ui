@@ -8,3 +8,9 @@ div.weather__info {
     font-size: 0.7rem;
     align-items: flex-end;
 }
+
+/* main heading */
+
+h1 {
+    font-size: 3rem !important;
+}

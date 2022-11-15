@@ -1,0 +1,11 @@
+div.weather__temp {
+    flex-direction: column;
+
+}
+
+/* day containers --> the > div only selects direct children of div.weather__temp, not all divs, only the first succession of children*/
+div.weather__temp>div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}

@@ -77,3 +77,10 @@ div.weather__info{
     align-items: center;
     margin: 5rem 0;
 }
+
+/* Weather Temperature Container */
+
+div.weather__temp {
+    display: flex;
+    justify-content: space-evenly;
+}
